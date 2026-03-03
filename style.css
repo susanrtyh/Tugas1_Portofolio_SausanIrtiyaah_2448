@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fff9db 60%, #eef4ff 100%);
+    color: #2f3e5c;
+}
+
+/* ================= NAVBAR ================= */
+
+nav {
+    background-color: #6c8ecf;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff9db;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+.menu a:hover {
+    color: #fff2a8;
+}
+
+/* ================= HERO SECTION ================= */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e8f0ff;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.profile-img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 6px solid #fff2a8;
+    object-fit: cover;
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.profile-img:hover {
+    transform: scale(1.04);
+}
+
+h1 {
+    color: #5a78b5;
+    margin-bottom: 8px;
+    font-size: 34px;
+}
+
+h3 {
+    font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/* ================= TEXT BOX INTRO ================= */
+
+.intro {
+    max-width: 700px;
+    margin: 30px auto;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 17px;
+    background-color: #5a78b5; /* Biru lebih gelap */
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ================= ABOUT PAGE ================= */
+
+.content {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 45px;
+    color: #5a78b5;
+}
+
+/* ================= TABLE ================= */
+
+table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #ffeaa7;
+}
+
+th {
+    background-color: #6c8ecf; /* Soft calm blue */
+    color: white;
+
+}
+
+/* ================= LIST ================= */
+
+.list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.list li {
+    margin: 12px 0;
+}
+
+/* ================= CONTACT LINKS ================= */
+
+.contact a {
+    color: #5a78b5;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    color: #ffd966;
+}
